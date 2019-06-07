@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu| Baloohi Bhai');
+
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Lato';
+}
+
+.navbar-brand{
+    font-family: 'pacifico';
+    font-size: 35px;
+    color: white !important;
+}
+
+
+.navbar {
+    background: #202833 !important;
+    border-color: #202833 !important;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    transition: .5s;
+  }
+
+.nav-link{
+    font-size: 16px;
+    margin: 16px;
+    color: white !important;
+    font-family: 'Condensed';
+}
+
+.nav-link:hover{
+    color: #00E8E8 !important;
+}
+.active .nav-link{
+    color: #00E8E8 !important;
+}
+
+.menu-right-btn{
+    padding: 13px 46px;
+    margin-right: 4%;
+    background-color: transparent;
+    transition: all 300ms ease-in;
+    
+}
+
+.menu-right-btn:hover{
+    color: white;
+    background-color: #00E8E8;
+}
+
+    #home {
+        background:rgb(128, 155, 155);
+      }
+      
+      #profile-picture {
+        margin-top: 100px;
+        width: 200px;
+        height: 200px;
+      }
+      #home-details {
+        text-align: center;
+        font-size: 30px;
+      }
+      
+      #home-details > h1 {
+        color: whitesmoke;
+        font-family: 'Stylish', sans-serif;
+        font-size: 55px !important;
+        
+      }
+      
+      #home-details > p {
+        color: #202833;
+        font-family: Ubuntu;
+        font-weight: bold;
+        font-size: 17px;
+      }
+      
+      #field-details > img {
+        width: 50px;
+        height: 50px;
+        background-color: #202833;
+        border-color: #202833 !important;
+        margin: 10px 10px 100px 10px;
+        border: solid 3px white;
+        padding: 5px;
+      }
+      
+      #about > .container-fluid {
+        padding: 60px 80px 100px 80px;
+    }
+    
+     .blockquote {
+      border-left: 5px solid  rgb(5, 117, 117);
+      font-family: Montserrat;
+      font-weight: bold;
+      font-size: 30px;
+      color: rgb(5, 117, 117);
+    }
+
+
+/* Section-1*/
+.section-1 .heading-1{
+    margin-top: 0px;
+}
+
+.section-1 .heading-2{
+    margin-bottom: 5%;
+    font-size: 39px;
+}
+
+.section-1 .para-1{
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+.section-1 .para-1, .card-text{
+
+    color: rgba(0, 0, 0, 0.59)
+}
+
+.section-1{
+    margin-bottom: 8%;
+}
+
+.card{
+    width: 20rem;
+}
+
+#resume {
+    background-color: #2d3e50;
+    background-image: url("../stock/resume.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+  }
+  
+  #resume > .container-fluid {
+    padding: 100px 80px 30px 80px;
+  }
+  
+  #resume-desc > div > .blockquote {
+    color: white;
+    margin-bottom: 30px;
+  }
+  
+  #download-resume {
+    margin-top: 30px;
+    border-radius: 0px;
+    border: solid 3px white;
+    color: white;
+    padding: 20px 20px 20px 20px;
+    background-color: #374456;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  #download-resume:focus {
+    outline: none;
+  }
+  #download-resume:hover {
+    border-color: #19bd9b;
+    background-color: #19bd9b;
+  }
+
+  
+
+  #copyright {
+    font-family: 'Montserrat';
+    color: white;
+    margin-top: 70px;
+  }
+  
+
